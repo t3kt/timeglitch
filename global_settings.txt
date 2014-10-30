@@ -1,23 +1,4 @@
-environment	localdev
-renderhost	192.168.1.100
-renderport	9500
-renderprotocol	reliablemsging
-oscrenderhost	192.168.1.100
-oscrenderport	7000
-oscrenderprotocol	msging
-ctrlhost	192.168.1.116
-ctrlport	9500
-ctrlmodifiedport	9505
-ctrlprotocol	reliablemsging
-audiohost	192.168.1.101
-audioport	9600
-audioprotocol	reliablemsging
-cells	/_/core/cells
-paramdefs	/_/core/paramdefs
-paramdefaults	/_/core/paramdefaults
-paramvals	/_/paramvals
 shareddir	{rootdir}/shared
-derezdir	{rootdir}/derez
 datadir	{rootdir}/data
 contentdir	{rootdir}/content
 scriptsdir	{rootdir}/scripts
@@ -28,8 +9,6 @@ kinectplayers	p[1-6]
 kinectjoints	head spine hand_[lr] ankle_[lr]
 kinectstatuses	{kinectplayers}/spine_tracked {kinectplayers}/hand_[lr]_tracked
 kinectpoints	{kinectplayers}/spine:t[xyz] {kinectplayers}/hand_[lr]:t[xyz]
-derezheight	24
-derezwidth	96
 midictlin	1
 midictlout	1
 kinectxmin	-1.9
@@ -48,3 +27,22 @@ kinectprerotatez	0
 kinectprescalex	1
 kinectprescaley	1
 kinectprescalez	1
+inputvals	/_/inputvals
+rootdir	..
+depthstream	/_/depthstream
+inputpoints	/_/inputpoints
+inputstatuses	/_/inputstatuses
+playerstatuses	/_/playerstatuses
+players	/_/players
+kinectrecordings	/_/input/kinectrecordings
+properties	/_/properties
+colorvars	/_/colorvars
+spinefilterwidth	.5
+spinefilteramount	1
+handfilterwidth	.3
+handfilteramount	.5
+spinescalefactor	1.4
+handsizelow	0.09
+handsizehigh	0.03
+handheightfilterwidth	.6
+handheightfilteramount	1
