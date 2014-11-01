@@ -7,8 +7,8 @@ renderw	1280
 renderh	1024
 kinectplayers	p[1-6]
 kinectjoints	head spine hand_[lr] ankle_[lr]
-kinectstatuses	{kinectplayers}/spine_tracked {kinectplayers}/hand_[lr]_tracked {kinectplayers}/head_tracked {kinectplayers}/shoulder_[lr]_tracked {kinectplayers}/elbow_[lr]_tracked {kinectplayers}/wrist_[lr]_tracked {kinectplayers}/hip_[lr]_tracked {kinectplayers}/ankle_[lr]_tracked {kinectplayers}/foot_[lr]_tracked
-kinectpoints	{kinectplayers}/spine:t[xyz] {kinectplayers}/hand_[lr]:t[xyz] {kinectplayers}/head:t[xyz] {kinectplayers}/shoulder_[lr]:t[xyz] {kinectplayers}/elbow_[lr]:t[xyz] {kinectplayers}/wrist_[lr]:t[xyz] {kinectplayers}/hip_[lr]:t[xyz] {kinectplayers}/ankle_[lr]:t[xyz] {kinectplayers}/foot_[lr]:t[xyz]
+kinectstatuses	{kinectplayers}/spine_tracked {kinectplayers}/hand_[lr]_tracked {kinectplayers}/head_tracked {kinectplayers}/shoulder_[lr]_tracked {kinectplayers}/elbow_[lr]_tracked {kinectplayers}/hip_[lr]_tracked {kinectplayers}/ankle_[lr]_tracked
+kinectpoints	{kinectplayers}/spine:t[xyz] {kinectplayers}/hand_[lr]:t[xyz] {kinectplayers}/head:t[xyz] {kinectplayers}/shoulder_[lr]:t[xyz] {kinectplayers}/elbow_[lr]:t[xyz] {kinectplayers}/hip_[lr]:t[xyz] {kinectplayers}/ankle_[lr]:t[xyz]
 midictlin	1
 midictlout	1
 kinectxmin	-1.9
@@ -37,12 +37,5 @@ players	/_/players
 kinectrecordings	/_/input/kinectrecordings
 properties	/_/properties
 colorvars	/_/colorvars
-spinefilterwidth	.5
-spinefilteramount	1
-handfilterwidth	.3
-handfilteramount	.5
-spinescalefactor	1.4
-handsizelow	0.09
-handsizehigh	0.03
-handheightfilterwidth	.6
-handheightfilteramount	1
+pointfilterwidth	1.5
+pointfilteramount	.9
