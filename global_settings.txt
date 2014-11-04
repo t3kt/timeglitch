@@ -3,8 +3,8 @@ datadir	{rootdir}/data
 contentdir	{rootdir}/content
 scriptsdir	{rootdir}/scripts
 componentsdir	{rootdir}/components
-renderw	1280
-renderh	1024
+renderw	960
+renderh	960
 kinectplayers	p[1-6]
 kinectjoints	head spine hand_[lr] ankle_[lr]
 kinectstatuses	{kinectplayers}/spine_tracked {kinectplayers}/hand_[lr]_tracked {kinectplayers}/head_tracked {kinectplayers}/shoulder_[lr]_tracked {kinectplayers}/elbow_[lr]_tracked {kinectplayers}/hip_[lr]_tracked {kinectplayers}/ankle_[lr]_tracked
@@ -37,5 +37,5 @@ players	/_/players
 kinectrecordings	/_/input/kinectrecordings
 properties	/_/properties
 colorvars	/_/colorvars
-pointfilterwidth	1.5
-pointfilteramount	.9
+pointfilterwidth	1.0
+pointfilteramount	1.0
