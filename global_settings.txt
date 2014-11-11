@@ -32,8 +32,6 @@ rootdir	..
 depthstream	/_/depthstream
 inputpoints	/_/inputpoints
 inputstatuses	/_/inputstatuses
-playerstatuses	/_/playerstatuses
-players	/_/players
 kinectrecordings	/_/input/kinectrecordings
 properties	/_/properties
 colorvars	/_/colorvars
