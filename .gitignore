@@ -40,5 +40,5 @@ CrashAutoSave.toe
 lumi-output-*
 content/**
 *.dmp
-timeglitch-output-*.*
+timeglitch*-output-*.*
 *.xed
