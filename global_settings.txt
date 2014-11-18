@@ -36,5 +36,6 @@ kinectrecordings	/_/input/kinectrecordings
 properties	/_/properties
 colorvars	/_/colorvars
 frontraw	/_/front_raw
+topraw	/_/top_raw
 pointfilterwidth	1.0
 pointfilteramount	1.0
