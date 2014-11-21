@@ -3,8 +3,8 @@ datadir	{rootdir}/data
 contentdir	{rootdir}/content
 scriptsdir	{rootdir}/scripts
 componentsdir	{rootdir}/components
-renderw	1280
-renderh	960
+renderw	800
+renderh	600
 kinectplayers	p[1-6]
 kinectjoints	head spine hand_[lr] ankle_[lr]
 kinectstatuses	{kinectplayers}?spine_tracked {kinectplayers}?hand_[lr]_tracked {kinectplayers}?head_tracked {kinectplayers}?shoulder_[lr]_tracked {kinectplayers}?elbow_[lr]_tracked {kinectplayers}?hip_[lr]_tracked {kinectplayers}?ankle_[lr]_tracked
