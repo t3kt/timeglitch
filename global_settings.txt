@@ -1,38 +1,23 @@
-shareddir	{rootdir}/shared
-datadir	{rootdir}/data
-contentdir	{rootdir}/content
-scriptsdir	{rootdir}/scripts
-componentsdir	{rootdir}/components
+rootdir .
+scriptsdir	scripts
+componentsdir	components
 renderw	800
 renderh	600
 kinectplayers	p[1-6]
 kinectjoints	head spine hand_[lr] ankle_[lr]
-kinectstatuses	{kinectplayers}?spine_tracked {kinectplayers}?hand_[lr]_tracked {kinectplayers}?head_tracked {kinectplayers}?shoulder_[lr]_tracked {kinectplayers}?elbow_[lr]_tracked {kinectplayers}?hip_[lr]_tracked {kinectplayers}?ankle_[lr]_tracked
-kinectpoints	{kinectplayers}/spine:t[xyz] {kinectplayers}/hand_[lr]:t[xyz] {kinectplayers}/head:t[xyz] {kinectplayers}/shoulder_[lr]:t[xyz] {kinectplayers}/elbow_[lr]:t[xyz] {kinectplayers}/hip_[lr]:t[xyz] {kinectplayers}/ankle_[lr]:t[xyz]
-midictlin	1
-midictlout	1
+kinectstatuses	p[1-6]?spine_tracked p[1-6]?hand_[lr]_tracked p[1-6]?head_tracked p[1-6]?shoulder_[lr]_tracked {p[1-6]?elbow_[lr]_tracked p[1-6]?hip_[lr]_tracked p[1-6]?ankle_[lr]_tracked
+kinectpoints	p[1-6]/spine:t[xyz] p[1-6]/hand_[lr]:t[xyz] p[1-6]/head:t[xyz] p[1-6]/shoulder_[lr]:t[xyz] p[1-6]/elbow_[lr]:t[xyz] p[1-6]/hip_[lr]:t[xyz] p[1-6]/ankle_[lr]:t[xyz]
 kinectxmin	-1.9
 kinectxmax	1.9
 kinectzmin	.8
 kinectzmax	3.9
 kinectymin	-.6
 kinectymax	0.5
-kinectpretransform	0
-kinectpretranslatex	0
-kinectpretranslatey	0
-kinectpretranslatez	0
-kinectprerotatex	0
-kinectprerotatey	0
-kinectprerotatez	0
-kinectprescalex	1
-kinectprescaley	1
-kinectprescalez	1
 inputvals	/_/inputvals
 rootdir	..
 depthstream	/_/depthstream
 inputpoints	/_/inputpoints
 inputstatuses	/_/inputstatuses
-kinectrecordings	/_/input/kinectrecordings
 properties	/_/properties
 colorvars	/_/colorvars
 frontraw	/_/front_raw
