@@ -3,7 +3,7 @@ datadir	{rootdir}/data
 contentdir	{rootdir}/content
 scriptsdir	{rootdir}/scripts
 componentsdir	{rootdir}/components
-renderw	960
+renderw	1280
 renderh	960
 kinectplayers	p[1-6]
 kinectjoints	head spine hand_[lr] ankle_[lr]
