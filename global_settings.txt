@@ -15,7 +15,6 @@ kinectymin	-.6
 kinectymax	0.5
 inputvals	/_/inputvals
 rootdir	..
-depthstream	/_/depthstream
 inputpoints	/_/inputpoints
 inputstatuses	/_/inputstatuses
 properties	/_/properties
