@@ -17,6 +17,8 @@ inputvals	/_/inputvals
 rootdir	..
 inputpoints	/_/inputpoints
 inputstatuses	/_/inputstatuses
+activestatuses	/_/activestatuses
+statevals	/_/statevals
 properties	/_/properties
 colorvars	/_/colorvars
 frontraw	/_/front_raw
