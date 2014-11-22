@@ -20,6 +20,7 @@ inputstatuses	/_/inputstatuses
 activestatuses	/_/activestatuses
 statevals	/_/statevals
 properties	/_/properties
+params	/_/params
 colorvars	/_/colorvars
 frontraw	/_/front_raw
 topraw	/_/top_raw
