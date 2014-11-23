@@ -18,6 +18,7 @@ rootdir	..
 inputpoints	/_/inputpoints
 inputstatuses	/_/inputstatuses
 activestatuses	/_/activestatuses
+pointinstances	/_/pointinstances
 statevals	/_/statevals
 properties	/_/properties
 params	/_/params
