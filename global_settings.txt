@@ -25,5 +25,6 @@ params	/_/params
 colorvars	/_/colorvars
 frontraw	/_/front_raw
 topraw	/_/top_raw
+geomodifiers	/_/geometry/geomodifiers
 pointfilterwidth	1.0
 pointfilteramount	1.0
