@@ -27,5 +27,6 @@ frontraw	/_/front_raw
 topraw	/_/top_raw
 geomodifiers	/_/geometry/geomodifiers
 postmodifiers	/_/post_proc/postmodifiers
+noisetransforms	/_/noise_transforms
 pointfilterwidth	1.0
 pointfilteramount	1.0
